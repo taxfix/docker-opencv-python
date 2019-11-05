@@ -20,6 +20,8 @@ RUN apt-get update \
         libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
+RUN pip install numpy
+
 WORKDIR /
 RUN wget https://github.com/opencv/opencv_contrib/archive/${OPENCV_VERSION}.zip \
 && unzip -q ${OPENCV_VERSION}.zip \
