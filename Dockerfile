@@ -1,4 +1,4 @@
-FROM tiangolo/meinheld-gunicorn-flask:python3.7
+FROM python:3.7
 ENV OPENCV_VERSION="4.1.0"
 
 RUN apt-get update \
