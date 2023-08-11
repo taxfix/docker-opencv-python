@@ -3,11 +3,9 @@ kind: Component
 metadata:
   name: docker-opencv-python
   description: ""
-  annotations: []
 spec:
   type: other
   lifecycle: production
   domain: documents-platform
   system: ocr
   owner: documents-platform
-relations: []
