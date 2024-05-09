@@ -5,7 +5,7 @@ metadata:
   description: ""
 spec:
   type: other
-  lifecycle: production
+  lifecycle: deprecated
   domain: documents-platform
   system: ocr
   owner: documents-platform
