@@ -8,4 +8,4 @@ spec:
   lifecycle: deprecated
   domain: documents-platform
   system: ocr
-  owner: documents-platform
+  owner: documents
